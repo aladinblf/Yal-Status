@@ -8,9 +8,9 @@ const port = 3000; // You can change this port if necessary
 
 app.use(bodyParser.json());
 
-const TELEGRAM_BOT_TOKEN = 'your-telegram-bot-token';
-const TELEGRAM_CHAT_ID = 'your-telegram-chat-id';
-const YALIDINE_SECRET_KEY = 'your-yalidine-secret-key';
+const TELEGRAM_BOT_TOKEN = '7102870755:AAGcfXJmGJFOCx0b8ygGkmC2wcv74jOr7XM';
+const TELEGRAM_CHAT_ID = '-1002226971414';
+const YALIDINE_SECRET_KEY = 'lx5q6Ro9nZgk2J8C7QEXdSFKj4aNpYzTwLeIbVcvGfyUDh1Os3WtMrBAimHu0P';
 
 // Endpoint to validate webhook
 app.get('/', (req, res) => {
